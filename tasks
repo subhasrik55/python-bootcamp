@@ -1,0 +1,46 @@
+#TASK-1(print fn)
+print("hello subhasri")
+print("welcome to python ")
+
+
+#task-2(variables)
+name = "subhasri"
+age=20
+college="S.A.Engineering College"
+department="artificial intelligence and datascience"
+print(f"my name is {name}")
+print(f"i am {age} years old")
+print(f"i am pursuing at {college}")
+print(f"i am majoring in {department}")
+
+#task 3 (user input and print)
+name=input("enter your name:")
+print(name)
+
+#task 4(add) #task5 (subtraction) #task6 (multiplication) #task7 (division)
+a=1000
+b=800
+c=200
+print(a+b+c)
+print(a-b-c)
+print(a*b*c)
+print(a/b/c)
+#task 8 (area of circle)
+import math 
+radius = 5
+area = math.pi * radius ** 2
+print(f"the area of the circle is {area}")
+
+#task 9 (area of rectangle)
+length= 20
+breadth=14
+area= length *breadth
+print("the area of rectangle is",area)
+#task 10
+principal = float(input("Enter the Principal Amount: "))
+rate = float(input("Enter the Rate of Interest: "))
+time = float(input("Enter the Time (in years): "))
+
+simple_interest = (principal * rate * time) / 100
+
+print(f"The Simple Interest is: {simple_interest}")
