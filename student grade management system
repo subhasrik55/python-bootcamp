@@ -2,14 +2,15 @@ name=input("enter the name:")
 maths=int(input("enter maths mark:"))
 physics=int(input("enter physics mark:"))
 computer=int(input("enter computer mark:"))
-average=maths+physics+computer/3
-if(average>=90):
+average =(maths+physics+computer)/3
+
+if(average>90):
    print("grade A")
-elif(average>=80):
+elif(average<80):
    print("grade B")
 else:
    print("grade C")
-if(average>=50):
+if(average>60):
    print("student passed")
 else:
    print("student failed")
