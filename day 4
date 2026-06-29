@@ -1,0 +1,33 @@
+#task1
+for i in range (1,21):
+    print(i)
+
+#task2(even numbers)
+for i in range(2,102,2):
+    print(i)
+
+#task3(odd numbers)
+for i in range(1,101,2):
+    print(i)
+
+#task4
+total = 0
+
+for i in range(1,101):
+    total = total + i
+
+print("Sum =", total)
+
+
+#task5 reverse counting
+for i in range(10,0,-1):
+    print(i)
+
+
+#task6(multiples of 7)
+for i in range(7,85,7):
+    print(i)   
+
+#task7 (multiplication table of 7)
+for i in range(1,11):
+    print("7 x", i, "=", 7*i)
