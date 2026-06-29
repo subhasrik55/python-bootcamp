@@ -1,0 +1,23 @@
+
+name = input("Enter the name: ")
+Total = int(input("Enter Total Classes: "))
+Attended = int(input("Enter Attended Classes: "))
+
+Attendance = (Attended / Total) * 100
+
+print("----------------------------")
+print("STUDENT ATTENDANCE REPORT")
+print("----------------------------")
+
+print("name :", name)
+print("Total  :", Total)
+print("Attended  :", Attended)
+print(f"Attendance : {Attendance:.2f}%")
+
+if Attendance >= 75:
+    print("Status : Eligible for Exam")
+else:
+    print("Status : Not Eligible for Exam")
+print("Attendance:", Attendance)
+
+
